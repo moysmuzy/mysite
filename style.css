@@ -1,0 +1,47 @@
+*{
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.row{
+  flex-direction: column;
+  justify-content: center;
+  padding: 20%;
+  background: gray;
+
+  
+}
+.layer-1{
+  width: 50%;
+  height: 50%;
+  z-index: 2;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  border: solid 1px black;
+  
+}
+.layer-1 img{
+  width: 100%;
+  object-fit: cover;
+  
+}
+
+.layer-2{
+  
+  z-index: 3;
+  opacity: 0.5;
+  padding: 0;
+  margin: 100px;
+  
+  flex-direction: column;
+  justify-content: center;
+  bottom: 0;
+  border: solid 1px red;
+
+  transition: height 0.5s;
+ 
+}
+.layer-2 img{
+  width: 100%;
+  
+}
